@@ -1,0 +1,25 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace SMMS_part_11_
+{
+    public partial class Sellers : Form
+    {
+        public Sellers()
+        {
+            InitializeComponent();
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+    }
+}
